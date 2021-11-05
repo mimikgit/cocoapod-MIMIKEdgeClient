@@ -3,9 +3,6 @@
  MIMIKEdgeClient library can help you interact with the following mimik services:
 
  * edgeEngine
- * authentication
- * profile
- * thumbnails
  * microservice deployment
 
 ## Requirements
