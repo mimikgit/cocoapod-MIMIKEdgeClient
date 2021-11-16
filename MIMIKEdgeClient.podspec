@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MIMIKEdgeClient"
-  s.version      = "13.0.1"
+  s.version      = "12.5.1"
   s.summary      = "mimik client library"
 
   s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author       = { "mimik" => "apps@mimik.com" }
   s.source       = { :git => "https://github.com/mimikgit/cocoapod-MIMIKEdgeClient.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = "MIMIKEdgeClient.framework"
+  s.vendored_frameworks = "MIMIKEdgeClient.framework", "edge.framework"
 
   s.dependency 'Alamofire', '~> 5.4.4'
   s.dependency 'KeychainSwift', '~> 19.0.0'
