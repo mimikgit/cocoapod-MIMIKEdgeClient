@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MIMIKEdgeClient-Swift.h</key>
 		<data>
-		nBqCjUblBlG0zGIgrofE0Rd3mnY=
+		Y1ate3tJAd8RRlaHD+jT5C8CZzU=
 		</data>
 		<key>Headers/MIMIKEdgeClient.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ptjyAVEDkAhPSroU39Jj4M4SJgg=
+		6TW5tlaX82dShgA6kvTCgBuvKWk=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		JfuCWo4MaMpWZhlFX3on5hT9mzM=
+		i2B3cWur6LB/3xzJv/Qo/yfTrX0=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HCtOjmkz9jmTY+PeHfZ8TKUhxD8=
+		YM/O+yrijmnKJf6xwCGdU+oL0Zw=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		JfuCWo4MaMpWZhlFX3on5hT9mzM=
+		i2B3cWur6LB/3xzJv/Qo/yfTrX0=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		HCtOjmkz9jmTY+PeHfZ8TKUhxD8=
+		YM/O+yrijmnKJf6xwCGdU+oL0Zw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Op20PoQsaForXOnRss6rapelEUEvNpHnJa/622j6AaY=
+			3off+JHH9TtnSaIFu3kwH4Fy6C2NyJPXeAD66mTngHI=
 			</data>
 		</dict>
 		<key>Headers/MIMIKEdgeClient.h</key>
@@ -72,28 +72,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2UYP6IlMl9ViEh3Z9Ag6YUwGDxNcyfZSJUvFKwZUqsg=
+			aXi0b45JnLTokV0sKqUqsI2udquHesMI0XaYQbGaRI4=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xUeBp5tRgoLnlG64V7fn/ZuQPEt9hmSR9U6sx0/TNEU=
+			fvpOdLBPfb/5j4Lj0GTZPt1jFrCAtm+HzQb1BPp7pqY=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2UYP6IlMl9ViEh3Z9Ag6YUwGDxNcyfZSJUvFKwZUqsg=
+			aXi0b45JnLTokV0sKqUqsI2udquHesMI0XaYQbGaRI4=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xUeBp5tRgoLnlG64V7fn/ZuQPEt9hmSR9U6sx0/TNEU=
+			fvpOdLBPfb/5j4Lj0GTZPt1jFrCAtm+HzQb1BPp7pqY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
