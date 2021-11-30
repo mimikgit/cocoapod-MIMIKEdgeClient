@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MIMIKEdgeClient-Swift.h</key>
 		<data>
-		Y1ate3tJAd8RRlaHD+jT5C8CZzU=
+		nBqCjUblBlG0zGIgrofE0Rd3mnY=
 		</data>
 		<key>Headers/MIMIKEdgeClient.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1v74c/d3kGkfqkH6lT7RzM/MxfQ=
+		YhWcj5YbtUVQxDIctldDRYXxweg=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		uHiMGMvdTtqSF2DIQ3Fo2aQ4aNY=
+		hYhm4dFiF71QLZ3/ljlspRNghbc=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fvx/Eb9p5OAJcjdGrVsvNW3u8TA=
+		EjDriliVky+iQdKUi9hfSGKSOIk=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		uHiMGMvdTtqSF2DIQ3Fo2aQ4aNY=
+		hYhm4dFiF71QLZ3/ljlspRNghbc=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		fvx/Eb9p5OAJcjdGrVsvNW3u8TA=
+		EjDriliVky+iQdKUi9hfSGKSOIk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3off+JHH9TtnSaIFu3kwH4Fy6C2NyJPXeAD66mTngHI=
+			Op20PoQsaForXOnRss6rapelEUEvNpHnJa/622j6AaY=
 			</data>
 		</dict>
 		<key>Headers/MIMIKEdgeClient.h</key>
@@ -72,28 +72,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RdUQAZHTtv8DRzqknHkCltxV8VaFSW0hcC39w+1LAzA=
+			WB6/qMVWv2Aqadk6iMU7aRM9KJfvU+DFq/2Nv+Q1sYY=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y6YYfJWUJrNvkkGofac+mXT1sfop/TZ5uMw7tJJ10zQ=
+			ygAvHfqORcRl08zh/ceN4W5nwivcO5pXslcPD94J1jA=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RdUQAZHTtv8DRzqknHkCltxV8VaFSW0hcC39w+1LAzA=
+			WB6/qMVWv2Aqadk6iMU7aRM9KJfvU+DFq/2Nv+Q1sYY=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y6YYfJWUJrNvkkGofac+mXT1sfop/TZ5uMw7tJJ10zQ=
+			ygAvHfqORcRl08zh/ceN4W5nwivcO5pXslcPD94J1jA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
