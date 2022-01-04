@@ -10,31 +10,31 @@
 		</data>
 		<key>Headers/MIMIKEdgeClient-Swift.h</key>
 		<data>
-		QIN6Xxvu7ZLXNY/4yhQR8k6ElOE=
+		uQvxlyZYtyTjEgfkzpxLUd0ECv8=
 		</data>
 		<key>Headers/MIMIKEdgeClient.h</key>
 		<data>
-		+uwGzo7n6wGdqbsZb+NUutl/Dbg=
+		zvDxEsU4tl0vt7BOuUs4RDeAf88=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kKCUeHOBiuH9GMQcQNDpxX9ggus=
+		hpeaD17imY++U3UMBYA9fLkVqGU=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		NvQ0y2lyji53Wwht1FWPMs7QEqU=
+		/pvZmYGjcQfG0L6We7TdOVItIU0=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HA6PknlA3QP/qMZi/TwHt9NQ/s4=
+		Rc8neQprXsUEwH5+qNcmYyGzxaM=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		NvQ0y2lyji53Wwht1FWPMs7QEqU=
+		/pvZmYGjcQfG0L6We7TdOVItIU0=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		HA6PknlA3QP/qMZi/TwHt9NQ/s4=
+		Rc8neQprXsUEwH5+qNcmYyGzxaM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,42 +58,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eWdYtg7v2l695zgCILO8YQeL9FH2u8SP4blT7oEgC8A=
+			Grd1Or4O5LxZ0OGIRX0QK/DQSqhAzqGfvE5ArsmqGD8=
 			</data>
 		</dict>
 		<key>Headers/MIMIKEdgeClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z53GHbiAAyMDydTrs95IcBJUZohfMK8Z5Ks5UfNaSGs=
+			MYASGxCcnX17po68ncT5OCeh+hKSvlHgkTnVS+gKHK4=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z2cKlGpwDxH6c44n7nyNx8Q34/gq/I7I8ygd+8wN7zw=
+			wGzpshpF/bkPyLxYoZtyJgDd28gyGAB14vynqr1bHk8=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7FId8OBFIjUa7a4nLb3CXUhq4x5HNfJkEykE6efRpKs=
+			i2dyt7nPytVExFjALLdVdoFnrJdm9anbtigw6np1Z+0=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z2cKlGpwDxH6c44n7nyNx8Q34/gq/I7I8ygd+8wN7zw=
+			wGzpshpF/bkPyLxYoZtyJgDd28gyGAB14vynqr1bHk8=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7FId8OBFIjUa7a4nLb3CXUhq4x5HNfJkEykE6efRpKs=
+			i2dyt7nPytVExFjALLdVdoFnrJdm9anbtigw6np1Z+0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

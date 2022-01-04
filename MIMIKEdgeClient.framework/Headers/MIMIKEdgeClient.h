@@ -15,7 +15,4 @@ FOUNDATION_EXPORT double MIMIKEdgeClientVersionNumber;
 FOUNDATION_EXPORT const unsigned char MIMIKEdgeClientVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <edgeEngine_iOS/PublicHeader.h>
-#if defined(IMPORT_EDGE_HEADER_FILE)
-#import <Edge.h>
-#endif
-
+#import "Edge.h"
