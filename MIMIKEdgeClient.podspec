@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "MIMIKEdgeClient.framework", "edge.framework"
 
   s.dependency 'Alamofire', '~> 5.4.4'
-  s.dependency 'KeychainSwift', '~> 19.0.0'
+  s.dependency 'KeychainSwift', '~> 20.0.0'
   s.dependency 'SwiftyJSON', '~> 5.0.1'
   s.dependency 'JWTDecode', '~> 2.6.3'
 
