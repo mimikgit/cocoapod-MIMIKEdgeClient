@@ -2,11 +2,10 @@
 
  MIMIKEdgeClient library can help you interact with the following mimik services:
 
- * `edgeEngine Runtime controls`
- * `edgeEngine Runtime information`
+ * [`edgeEngine Runtime`](https://devdocs.mimik.com/introduction/01-index)
  * `edge microservice deployment`
 
-  using the following APIs:
+ using these API functions:
 
  * `startEdgeEngine`
  * `stopEdgeEngineSynchronously`
@@ -33,7 +32,7 @@
  * `validateMicroserviceResponse`
  * `edgeEngineExpectedVersion`
 
- Please see the in-code documenation in Xcode for more details about each API.
+ Please see the in-code documentation in Xcode for more details.
 
 ## Requirements
 ```
