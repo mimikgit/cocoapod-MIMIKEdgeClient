@@ -2,10 +2,38 @@
 
  MIMIKEdgeClient library can help you interact with the following mimik services:
 
- * edgeEngine Runtime controls
- * edgeEngine Runtime information
- * edge microservice deployment
- * mimik services health check
+ * `edgeEngine Runtime controls`
+ * `edgeEngine Runtime information`
+ * `edge microservice deployment`
+
+  using the following APIs:
+
+ * `startEdgeEngine`
+ * `stopEdgeEngineSynchronously`
+ * `eraseEdgeEngineContentSynchronously`
+ * `edgeEngineIdToken`
+ * `edgeEngineIdTokenFederated`
+ * `edgeEngineIdTokenDecoded`
+ * `edgeEngineInfo`
+ * `healthCheck`
+ * `saveLibraryUserAccessToken`
+ * `deployMicroservice`
+ * `undeployMicroservice`
+ * `deployedMicroservices`
+ * `verifyDeployedMicroserviceMatching`
+ * `deployedMicroserviceImages`
+ * `deployedMicroserviceContainers`
+ * `edgeEngineServiceLink`
+ * `edgeEngineWorkingDirectory`
+ * `edgeEngineWebSocketServiceLink`
+ * `setClientLibraryLogLevel`
+ * `setCustomPortNumber`
+ * `setBackendMode`
+ * `selectedBackend`
+ * `validateMicroserviceResponse`
+ * `edgeEngineExpectedVersion`
+
+ Please see the in-code documenation in Xcode for more details about each API.
 
 ## Requirements
 ```
@@ -36,13 +64,15 @@ pod 'MIMIKEdgeClient', '~> 12.5.1'
 
 ## Tutorial
 
-Visit our [tutorial](https://devdocs.mimik.com/tutorials/03-index) to learn more about the mimik client library and how to integrate it into your iOS project.
+Visit this [tutorial](https://devdocs.mimik.com/tutorials/03-index) to learn more about the mimik client library and how to integrate it into your iOS project.
 
-## Other mimik libraries for iOS
+## mimik client and service libraries
 
-Don't forget to checkout other mimik client and service libraries also [available on Github](https://github.com/search?q=cocoapod-MIMIKEdgeClient)
+Don't forget to checkout all mimik client and service libraries [available on Github](https://github.com/search?q=cocoapod-MIMIKEdgeClient)
 
-Additional service libraries:
+Direct links:
+ 
+ * [MIMIKEdgeClient](https://github.com/mimikgit/cocoapod-MIMIKEdgeClient)
  
  * [MIMIKEdgeClientIdentity](https://github.com/mimikgit/cocoapod-MIMIKEdgeClientIdentity)
  * [MIMIKEdgeClientProfile](https://github.com/mimikgit/cocoapod-MIMIKEdgeClientProfile)
@@ -53,7 +83,6 @@ Additional service libraries:
  * [MIMIKEdgeClientNotification](https://github.com/mimikgit/cocoapod-MIMIKEdgeClientNotification)
  * [MIMIKEdgeClientTracker](https://github.com/mimikgit/cocoapod-MIMIKEdgeClientTracker)
  * [MIMIKEdgeClientContentCache](https://github.com/mimikgit/cocoapod-MIMIKEdgeClientContentCache)
-
 
 ## Author
 
