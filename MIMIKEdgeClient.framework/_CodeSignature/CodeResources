@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MIMIKEdgeClient-Swift.h</key>
 		<data>
-		uQvxlyZYtyTjEgfkzpxLUd0ECv8=
+		qgpSzEihgMI399zuknIerCCr5tw=
 		</data>
 		<key>Headers/MIMIKEdgeClient.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		j5QhVsZbpeFgb2Jr/sviXYNzkCw=
+		aIyb86kdwSPlKHS6oGjzJe8CiLA=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/pvZmYGjcQfG0L6We7TdOVItIU0=
+		JmDSRLOXq0PYituyFEO/cASDXac=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Rc8neQprXsUEwH5+qNcmYyGzxaM=
+		PmBa+X5V6MWgGMgwuCxXp/pZ6Rc=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		/pvZmYGjcQfG0L6We7TdOVItIU0=
+		JmDSRLOXq0PYituyFEO/cASDXac=
 		</data>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Rc8neQprXsUEwH5+qNcmYyGzxaM=
+		PmBa+X5V6MWgGMgwuCxXp/pZ6Rc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Grd1Or4O5LxZ0OGIRX0QK/DQSqhAzqGfvE5ArsmqGD8=
+			J3LWgwTIobznC5p33v7qKcrWtXC9ZiBN/ZiGKRtqmos=
 			</data>
 		</dict>
 		<key>Headers/MIMIKEdgeClient.h</key>
@@ -72,28 +72,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wGzpshpF/bkPyLxYoZtyJgDd28gyGAB14vynqr1bHk8=
+			GqLV2hxmtxp+i4l/m7LEkDN+Wj4IEKGZOWemHWoj9b4=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i2dyt7nPytVExFjALLdVdoFnrJdm9anbtigw6np1Z+0=
+			VNgYvLx7r9FsZIGHgCr6wdldLbCYnOy/bqdVpzokuGU=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wGzpshpF/bkPyLxYoZtyJgDd28gyGAB14vynqr1bHk8=
+			GqLV2hxmtxp+i4l/m7LEkDN+Wj4IEKGZOWemHWoj9b4=
 			</data>
 		</dict>
 		<key>Modules/MIMIKEdgeClient.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i2dyt7nPytVExFjALLdVdoFnrJdm9anbtigw6np1Z+0=
+			VNgYvLx7r9FsZIGHgCr6wdldLbCYnOy/bqdVpzokuGU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

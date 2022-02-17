@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MIMIKEdgeClient"
-  s.version      = "13.2.1"
+  s.version      = "13.2.5"
   s.summary      = "mimik client library"
 
   s.description  = <<-DESC
@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "MIMIKEdgeClient.framework", "edge.framework"
 
   s.dependency 'Alamofire', '~> 5.4.4'
-  s.dependency 'KeychainSwift', '~> 20.0.0'
   s.dependency 'SwiftyJSON', '~> 5.0.1'
   s.dependency 'JWTDecode', '~> 2.6.3'
 

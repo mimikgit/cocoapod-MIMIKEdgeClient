@@ -209,7 +209,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+/// This object is constructed with a user access token and used for client library authorization. See authorizeClientLibraryWith public function.
+/// warning:
+/// Client library does not store this user access token anywhere. It is the application developer’s responsibility to call this function with a valid user access token after each client library initialization. It is also the application developer’s responsibility to store the user access token somewhere safe.
+/// \param userAccessToken User access token to be used by the client and service libraries for backend microservice API calls.
+///
+SWIFT_CLASS("_TtC15MIMIKEdgeClient18MIMIKAuthorization")
+@interface MIMIKAuthorization : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSString;
+@class NSNumber;
 
 /// MIMIKEdgeClient library can help you interact with the following mimik services:
 /// <ul>
@@ -261,13 +274,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// </ul>
 SWIFT_CLASS("_TtC15MIMIKEdgeClient15MIMIKEdgeClient")
 @interface MIMIKEdgeClient : NSObject
-/// Save an access token for backend microservice calls in the client library. Pass nil to remove it from storage.
-/// \param token Access token to be used by the client for all backend microservice calls.
-///
-- (void)saveLibraryUserAccessTokenWithToken:(NSString * _Nullable)token;
+- (BOOL)saveLibraryUserAccessTokenWithToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
@@ -318,6 +330,12 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient25MIMIKGenericContentResult")
 @interface MIMIKGenericContentResult : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC15MIMIKEdgeClient19MIMIKJwtTokenHelper")
+@interface MIMIKJwtTokenHelper : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -421,7 +439,7 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient12MIMIKService")
 /// important:
 /// optional nodeName is the name visible to other nodes on the network.
 /// important:
-/// localDiscovery turns  the edgeEngine’s local discovery feature on or off.
+/// localDiscovery turns the edgeEngine’s local discovery feature on or off.
 SWIFT_CLASS("_TtC15MIMIKEdgeClient22MIMIKStartupParameters")
 @interface MIMIKStartupParameters : NSObject <NSCoding>
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
@@ -429,12 +447,6 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient22MIMIKStartupParameters")
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC15MIMIKEdgeClient10MIMIKTools")
-@interface MIMIKTools : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #if __has_attribute(external_source_symbol)
