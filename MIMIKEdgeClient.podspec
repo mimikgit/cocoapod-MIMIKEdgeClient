@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MIMIKEdgeClient"
-  s.version      = "13.3.1"
+  s.version      = "13.3.2"
   s.summary      = "mimik client library"
 
   s.description  = <<-DESC
