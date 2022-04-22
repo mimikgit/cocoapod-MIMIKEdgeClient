@@ -236,7 +236,6 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient23MIMIKCredentialsManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSString;
 
 /// MIMIKEdgeClient library can help you interact with the following mimik services:
 /// <ul>
@@ -288,7 +287,6 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient23MIMIKCredentialsManager")
 /// </ul>
 SWIFT_CLASS("_TtC15MIMIKEdgeClient15MIMIKEdgeClient")
 @interface MIMIKEdgeClient : NSObject
-- (BOOL)saveLibraryUserAccessTokenWithToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -365,6 +363,7 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient8MIMIKLog")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSString;
 
 SWIFT_CLASS("_TtC15MIMIKEdgeClient17MIMIKMicroservice")
 @interface MIMIKMicroservice : NSObject
@@ -449,26 +448,28 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient12MIMIKRequest")
 /// </ul>
 SWIFT_CLASS("_TtC15MIMIKEdgeClient12MIMIKService")
 @interface MIMIKService : NSObject <NSCoding>
-- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
 /// mimik edgeEngine startup parameters to be used during edgeEngine initialization.
-/// important:
-/// optional logLevel controls the level of console log output from the edgeEngine platform.
-/// important:
-/// optional nodeInfoLevel controls the level of node information visible to other nodes on the network.
-/// important:
-/// optional nodeName is the name visible to other nodes on the network.
-/// important:
-/// localDiscovery turns the edgeEngine’s local discovery feature on or off.
+/// \param logLevel controls the level of console log output from the edgeEngine platform. Defaults to error.
+///
+/// \param nodeInfoLevel controls the level of node information visible to other nodes on the network. Defaults to off.
+///
+/// \param nodeName This is the device name visible to other nodes on the network. Defaults to
+///
+/// \param localDiscovery Turns the edgeEngine’s local discovery feature on or off. Defaults to off.
+///
+/// \param keepAlive The client library automatically shuts down edgeEngine once the application is taken to the background mode (or the device gets locked). The client library will also automatically restart the edgeEngine once the application comes back to the foreground, unless false is specified for this parameter. Defaults to true if not specified.
+///
 SWIFT_CLASS("_TtC15MIMIKEdgeClient22MIMIKStartupParameters")
 @interface MIMIKStartupParameters : NSObject <NSCoding>
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
