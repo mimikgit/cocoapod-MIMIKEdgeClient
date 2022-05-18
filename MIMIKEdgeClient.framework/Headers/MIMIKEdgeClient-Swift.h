@@ -309,7 +309,6 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient15MIMIKEdgeClient")
 
 
 
-
 /// Provides edgeEngine instance specific MIMIKEdgeInfo object. Essentially provides a read only MIMIKEdgeInfo object with edgeEngine instance parameters (nodeId, nodeName, version, accountId) in a completion block.
 /// <ul>
 ///   <li>
@@ -440,12 +439,7 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient12MIMIKRequest")
 
 @class NSCoder;
 
-/// MIMIK backend microservice configuration object.
-/// <ul>
-///   <li>
-///     backendMicroserviceRootUrl: microservice URL.
-///   </li>
-/// </ul>
+/// MIMIK backend service configuration object.
 SWIFT_CLASS("_TtC15MIMIKEdgeClient12MIMIKService")
 @interface MIMIKService : NSObject <NSCoding>
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
@@ -456,6 +450,12 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient12MIMIKService")
 
 
 /// mimik edgeEngine startup parameters to be used during edgeEngine initialization.
+/// note:
+/// License can be obtain at the mimik developer console (https://developer.mimik.com/console)
+/// \param license edgeEngine license and configuration.
+///
+/// \param keepAlive The client library automatically shuts down edgeEngine once the application is taken to the background mode (or the device gets locked). If keepAlive is set to true, then the client library will automatically restart the edgeEngine once the application comes back to the foreground. Set keepAlive to false if a manual edgeEngine restart is preferred.
+///
 /// \param logLevel controls the level of console log output from the edgeEngine platform. Defaults to error.
 ///
 /// \param nodeInfoLevel controls the level of node information visible to other nodes on the network. Defaults to off.
@@ -463,8 +463,6 @@ SWIFT_CLASS("_TtC15MIMIKEdgeClient12MIMIKService")
 /// \param nodeName This is the device name visible to other nodes on the network. Defaults to
 ///
 /// \param localDiscovery Turns the edgeEngine’s local discovery feature on or off. Defaults to off.
-///
-/// \param keepAlive The client library automatically shuts down edgeEngine once the application is taken to the background mode (or the device gets locked). The client library will also automatically restart the edgeEngine once the application comes back to the foreground, unless false is specified for this parameter. Defaults to true if not specified.
 ///
 SWIFT_CLASS("_TtC15MIMIKEdgeClient22MIMIKStartupParameters")
 @interface MIMIKStartupParameters : NSObject <NSCoding>
